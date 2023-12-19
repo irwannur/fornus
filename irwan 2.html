@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">GURU & STAFF</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="1">
+    <div class="w3-quarter">
+      <img src="PAK-PRAMONO.jpg" alt="Sandwich" style="width:100%">
+      <h3>DW Pramono, S.S., S.Kom., M.Pd</h3>
+      <p>Kepala Sekolah</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="BU-DESI.jpg" alt="Steak" style="width:100%">
+      <h3>Desy Restiani, S.S., Dipl. Cidesco.</h3>
+      <p>WaKa HubIn</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="PAK-DIRMAN.jpg" alt="Cherries" style="width:100%">
+      <h3>Sudirmanto Haddy Putrawan, S.Pd</h3>
+      <p>WaKa Kurikulum</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <img src="PAK BAMBANG.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Bambang Sugiriatmo, S.Pd., S.I.kom</h3>
+      <p>WaKa Kesiswaan</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="BU-SRINING.jpg" alt="Popsicle" style="width:100%">
+      <h3>Srining, S.Pd</h3>
+      <p>Guru Bimbingan Konseling</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="BU-RINA-.jpg" alt="Salmon" style="width:100%">
+      <h3>Rinanti Aisa, M.Pd</h3>
+      <p>Guru Pancasila dan Kewarganegaraan</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="BU-NOVI.jpg" alt="Sandwich" style="width:100%">
+      <h3>Nofi Puji, S.Pd</h3>
+      <p>Guru Bahasa Inggris</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="PAK-MARDIANTO.jpg" alt="Croissant" style="width:100%">
+      <h3>Mardianto Eko Nugroho, A.Md</h3>
+      <p>Guru Produktif TKJ</p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-padding-16 w3-center" id="1">
+    <div class="w3-quarter">
+      <img src="BU-LIYA.jpg" alt="Sandwich" style="width:100%">
+      <h3>Liya Wahyuningsih, S.Pd</h3>
+      <p>Guru Bahasa Indonesia</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="BU-YOHANA.jpg" alt="Steak" style="width:100%">
+      <h3>Johana Nguru</h3>
+      <p>Guru Pendidikan Agama Kristen</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="PAK-NANA.jpg" alt="Cherries" style="width:100%">
+      <h3>Erna Suparno, S.I.Kom</h3>
+      <p>Guru Produktif DKV</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="GURU-2.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Dwi Kaniwara</h3>
+      <p>Guru Produktif TKK</p>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-padding-16 w3-center" id="1">
+    <div class="w3-quarter">
+      <img src="BU-CUNDUK.jpg" alt="Sandwich" style="width:100%">
+      <h3>Cundhuk Anggraeni, S.Kep, Ns.</h3>
+      <p>Guru Produktif TKK</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="PAK AJI.jpg" alt="Steak" style="width:100%">
+      <h3>Aji Subekti, S.Pd</h3>
+      <p>Guru Informatika</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="PAK-TONI.jpg" alt="Cherries" style="width:100%">
+      <h3>Ahmad Fatoni, S.Ag.</h3>
+      <p>Guru Agama Islam</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="FAHREZA.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Fahreza Arya Prameswara</h3>
+      <p>Laboran Komputer Jaringan</p>
+    </div>
+  </div>
+  <div class="w3-row-padding w3-padding-16 w3-center" id="1">
+    <div class="w3-quarter">
+      <img src="BAGAS.jpg" alt="Sandwich" style="width:100%">
+      <h3>Bagas Octaviansyah</h3>
+      <p>Staf Media</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="BU-RENI.jpg" alt="Steak" style="width:100%">
+      <h3>Reni Sartiningsih, A.M.pd</h3>
+      <p>Staf Administrasi</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="JANE.jpg" alt="Cherries" style="width:100%">
+      <h3>Siti Nurjanah</h3>
+      <p>Staf Administrasi & Operasional</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="OMM.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Wahyu Supriatna</h3>
+      <p>Staff Keamanan</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="TANTE.jpg" alt="Cherries" style="width:100%">
+      <h3>Rina Herawati</h3>
+      <p>Staff Rumah Tangga</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="TASYA.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Tasya Ravaela</h3>
+      <p>Laboran Kecantikan Kulit</p>
+    </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>sejarah fornuss</h3><br>
+    <img src="foto guru.jpeg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Haloo!!!</b></h4>
+      <h6><i>berikut ini adalah sedikit pengertian Tentang SMK FORNUS</i></h6>
+      <p>Berdiri tahun 2016 dengan perijinan dari BPMPT dengan Izin Operasional. ·No : 421.9/Kep.32/I/SMK-BPMPT/XII/2016 Tertanggal 30 Desember 2016 dibawah naungan Yayasan Putra Sandi Yudha, yang merupakan yayasan putra putri prajurit Kopassus TNI Angkatan Darat.
+        Pada awal pendirian, SMK Forward Nusantara memiliki dua Program Studi, yaitu Tata Kecantikan Kulit dan Teknik komputer dan Jaringan. Pada Tahun 2018, SMK Forward Nusantara membuka Program Studi Desain Komunikasi Visual, kemudian Program Studi Tata Boga di tahun 2020 dan Teknik Mesin di Tahun 2022
+        Serangkaian prestasi mulai dari Pelajar Teladan, Juara Kompetisi Komputer, Bahasa Inggris, Juara Video Pendek Tingkat Depok, Juara Make Up Fantasy, Finalis Lomba Nail Art Tingkat Nasional, Finalis Pembuatan Aplikasi Berbasis Android tingkat Nasional, serta finalis Markoding Innovation Challenge yang bekerjasama dengan UNESCO.</p>
+    </div>
+  </div>
+  <hr>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
